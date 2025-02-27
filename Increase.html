@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level Up</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="incrrease.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+  
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+  
+
+</head>
+<body>
+ 
+   <canvas id="particleCanvas"></canvas>
+<header>
+    <div class="logo"><b class="rank" style="color: red;">E</b> rank</div>
+ <nav>
+   
+        <a href=""><b style="color: white;letter-spacing: 4px;">Level <b class="LEVEL">0</b>  </b> </a>
+        <a href="" style="color: rgb(171, 15, 255);font-weight: 100;" class="POINTS"> <b class="currentPoints">0</b> / <b class="maxPoints">1000</b> XP</a>
+</nav>
+</header>
+    <div class="carousel">
+        <div class="list">
+            <div class="item">
+                <img src="images/one.png">
+                <div class="introduce">
+                    <div class="title">DISCIPLINE</div>
+                    <div class="topic">DIS: <b class="DisPoints">3</b></div>
+                    <div class="des">
+                        <div class="skill">   
+                            <span class="bar"><span class="html DIS"></span></span>      
+                    </div> 
+                 </div>
+                    <button class="seeMore">Increase DIS ></button>
+                </div>
+                <div class="detail">
+                    <div class="title">DISCIPLINE</div>
+                    <div class="des disDes">
+                       Increase your XP by completting the following 
+                 </div>
+                   
+                 <section class="container">
+                    <div class="card__container swiper">
+                       <div class="card__content">
+                          <div class="swiper-wrapper">
+                             <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                   <img src="images/DisLogo.png" alt="image" class="card__img">
+                                   <div class="card__shadow"></div>
+                                </div>
+                 
+                                <div class="card__data">
+                                   <h3 class="card__name">100XP</h3>
+                                   <p class="card__description">
+                                    One full day of extreme discipline (no procrastination, no distractions, 100% focus on tasks) 
+                                   </p>
+                 
+                                   <a href="#" class="card__button dis">Task complete</a>
+                                </div>
+                             </article>
+
+                             <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                   <img src="images/DisLogo.png" alt="image" class="card__img">
+                                   <div class="card__shadow"></div>
+                                </div>
+                 
+                                <div class="card__data">
+                                   <h3 class="card__name">30XP</h3>
+                                   <p class="card__description">
+                                    Exercising when you don't feel like it   
+                                 </p>
+                 
+                                   <a href="#" class="card__button dis">Task complete</a>
+                                </div>
+                             </article>
+
+                             <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                   <img src="images/DisLogo.png" alt="image" class="card__img">
+                                   <div class="card__shadow"></div>
+                                </div>
+                 
+                                <div class="card__data">
+                                   <h3 class="card__name">300XP</h3>
+                                   <p class="card__description">
+                                    7 days of following your routine with zero breaks 
+                                   </p>
+                 
+                                   <a href="#" class="card__button dis">Task complete</a>
+                                </div>
+                             </article>
+                               <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                   <img src="images/DisLogo.png" alt="image" class="card__img">
+                                   <div class="card__shadow"></div>
+                                </div>
+                 
+                                <div class="card__data">
+                                   <h3 class="card__name">300XP</h3>
+                                   <p class="card__description">
+                                    7 days of following your routine with zero breaks 
+                                   </p>
+                 
+                                   <a href="#" class="card__button dis">Task complete</a>
+                                </div>
+                             </article> 
+
+                             <article class="card__article swiper-slide">
+                              <div class="card__image">
+                                 <img src="images/DisLogo.png" alt="image" class="card__img">
+                                 <div class="card__shadow"></div>
+                              </div>
+               
+                              <div class="card__data">
+                                 <h3 class="card__name">600XP</h3>
+                                 <p class="card__description">
+                                    Wake up at 5 AM for 5 consecutive days +600 XP
+                                 </p>
+               
+                                 <a href="#" class="card__button dis">Task complete</a>
+                              </div>
+                           </article>
+
+
+
+
+                           <article class="card__article swiper-slide">
+                              <div class="card__image">
+                                 <img src="images/DisLogo.png" alt="image" class="card__img">
+                                 <div class="card__shadow"></div>
+                              </div>
+               
+                              <div class="card__data">
+                                 <h3 class="card__name">250XP</h3>
+                                 <p class="card__description">
+                                    follow a night routine perfectly (journaling, planning, reflection, etc.)
+                                 </p>
+               
+                                 <a href="#" class="card__button dis">Task complete</a>
+                              </div>
+                           </article>
+
+
+                           <article class="card__article swiper-slide">
+                              <div class="card__image">
+                                 <img src="images/DisLogo.png" alt="image" class="card__img">
+                                 <div class="card__shadow"></div>
+                              </div>
+               
+                              <div class="card__data">
+                                 <h3 class="card__name">300XP</h3>
+                                 <p class="card__description">
+                                    look for ways to learn more , look for opportunities 
+                                 </p>
+               
+                                 <a href="#" class="card__button dis">Task complete</a>
+                              </div>
+                           </article>
+
+                           <article class="card__article swiper-slide">
+                              <div class="card__image">
+                                 <img src="images/DisLogo.png" alt="image" class="card__img">
+                                 <div class="card__shadow"></div>
+                              </div>
+               
+                              <div class="card__data">
+                                 <h3 class="card__name">200XP</h3>
+                                 <p class="card__description">
+                                  Save at least R100 towards investments/savings
+                                 </p>
+               
+                                 <a href="#" class="card__button dis">Task complete</a>
+                              </div>
+                           </article>
+
+
+
+                           <article class="card__article swiper-slide">
+                              <div class="card__image">
+                                 <img src="images/DisLogo.png" alt="image" class="card__img">
+                                 <div class="card__shadow"></div>
+                              </div>
+               
+                              <div class="card__data">
+                                 <h3 class="card__name">700XP</h3>
+                                 <p class="card__description">
+                                    Make a profitable trade / investment 
+                                 </p>
+               
+                                 <a href="#" class="card__button dis">Task complete</a>
+                              </div>
+                           </article>
+                          
+                             <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                   <img src="images/DisLogo.png" alt="image" class="card__img">
+                                   <div class="card__shadow"></div>
+                                </div>
+                 
+                                <div class="card__data">
+                                   <h3 class="card__name">50XP</h3>
+                                   <p class="card__description">
+                                    No unnecessary spending for a whole week
+                                   </p>
+                 
+                                   <a href="#" class="card__button dis">Task Complete</a>
+                                </div>
+                             </article>
+                 
+                             <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                   <img src="images/DisLogo.png" alt="image" class="card__img">
+                                   <div class="card__shadow"></div>
+                                </div>
+                 
+                                <div class="card__data">
+                                   <h3 class="card__name">20XP</h3>
+                                   <p class="card__description">
+                                    Waking up early
+                                   </p>
+                 
+                                   <a href="#" class="card__button dis">Task complete</a>
+                                </div>
+                             </article>
+                 
+                             <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                   <img src="images/DisLogo.png" alt="image" class="card__img">
+                                   <div class="card__shadow"></div>
+                                </div>
+                 
+                                <div class="card__data">
+                                   <h3 class="card__name">20XP</h3>
+                                   <p class="card__description">
+                                    Following your planned schedule without deviation
+                                   </p>
+                 
+                                   <a href="#" class="card__button dis">Task complete</a>
+                                </div>
+                             </article>
+           
+                             <article class="card__article swiper-slide">
+                                <div class="card__image">
+                                   <img src="images/DisLogo.png" alt="image" class="card__img">
+                                   <div class="card__shadow"></div>
+                                </div>
+                 
+                                <div class="card__data">
+                                   <h3 class="card__name">10XP</h3>
+                                   <p class="card__description">
+                                    Cold showers
+                                   </p>
+                 
+                                   <a href="#" class="card__button dis">Task Complete</a>
+                                </div>
+                             </article>
+                          </div>
+                       </div>
+           
+                       <!-- Navigation buttons -->
+                       <div class="swiper-button-next">
+                          <i class="ri-arrow-right-s-line"></i>
+                       </div>
+                       
+                       <div class="swiper-button-prev">
+                          <i class="ri-arrow-left-s-line"></i>
+                       </div>
+           
+                       <!-- Pagination -->
+                       <div class="swiper-pagination"></div>
+                    </div>
+                 </section>
+                 
+                        
+              
+                   
+                </div>
+                
+                
+            </div>
+
+            <div class="item">
+                <img src="images/model2.png">
+                <div class="introduce">
+                    <div class="title">INTELLIGENCE</div>
+                    <div class="topic">INT: <b class="IntPoints">7</b></div>
+                    <div class="des">
+                        <div class="skill">   
+                            <span class="bar"><span class="html INT"></span></span>      
+                    </div>
+                                </div>
+                    <button class="seeMore">Increase INT ></button>
+                </div>
+                <div class="detail">
+                    <div class="title">INT</div>
+                    <div class="des IntDes">
+                     <!-- lorem 50 -->
+                      
+                        </div>
+                    <section class="container">
+                        <div class="card__container swiper">
+                           <div class="card__content">
+                              <div class="swiper-wrapper">
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/IntLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">20XP</h3>
+                                       <p class="card__description">
+                                        Reading one full page of a book
+                                    </p>
+                     
+                                       <a href="#" class="card__button int">Task complete</a>
+                                    </div>
+                                 </article>
+
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/IntLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">400XP</h3>
+                                       <p class="card__description">
+                                          Solve 5 coding problems on LeetCode/HackerRank
+                                    </p>
+                     
+                                       <a href="#" class="card__button int">Task complete</a>
+                                    </div>
+                                 </article>
+
+
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/IntLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">1000XP</h3>
+                                       <p class="card__description">
+                                          Complete a mental challenge week (e.g., solving puzzles every day) 
+                                    </p>
+                     
+                                       <a href="#" class="card__button int">Task complete</a>
+                                    </div>
+                                 </article>
+
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/IntLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">200XP</h3>
+                                       <p class="card__description">
+                                        Winning a chess match or any strategic game 
+                                     </p>
+                     
+                                       <a href="#" class="card__button int">Task complete</a>
+                                    </div>
+                                 </article>
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/IntLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">300XP</h3>
+                                       <p class="card__description">
+                                        Solving 5+ puzzles, riddles, or brain teasers 
+                                       </p>
+                     
+                                       <a href="#" class="card__button int">Task complete</a>
+                                    </div>
+                                 </article>
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/IntLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">300XP</h3>
+                                       <p class="card__description">
+                                        Completing a difficult math problem or coding challenge 
+                                       </p>
+                     
+                                       <a href="#" class="card__button int">Task Complete</a>
+                                    </div>
+                                 </article>
+                     
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/IntLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">100XP</h3>
+                                       <p class="card__description">
+                                        Memorizing and recalling 10+ new facts in one day 
+                                       </p>
+                     
+                                       <a href="#" class="card__button int">Task complete</a>
+                                    </div>
+                                 </article>
+                     
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/IntLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">300XP</h3>
+                                       <p class="card__description">
+                                        Learning an entire new subject (self-study, online course, or school subject mastery) 
+                                       </p>
+                     
+                                       <a href="#" class="card__button int">Task complete</a>
+                                    </div>
+                                 </article>
+               
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/IntLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">20XP</h3>
+                                       <p class="card__description">
+                                        Watch an educational video
+                                       </p>
+                     
+                                       <a href="#" class="card__button int">Task Complete</a>
+                                    </div>
+                                 </article>
+                              </div>
+                           </div>
+               
+                           <!-- Navigation buttons -->
+                           <div class="swiper-button-next">
+                              <i class="ri-arrow-right-s-line"></i>
+                           </div>
+                           
+                           <div class="swiper-button-prev">
+                              <i class="ri-arrow-left-s-line"></i>
+                           </div>
+               
+                           <!-- Pagination -->
+                           <div class="swiper-pagination"></div>
+                        </div>
+                     </section>
+                 
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/three.png">
+                <div class="introduce">
+                    <div class="title">SPIRITUAL</div>
+                    <div class="topic">SPI: <b class="SpiPoints">0</b></div>
+                    <div class="des">
+                        <div class="skill">   
+                            <span class="bar"><span class="html SPI"></span></span>      
+                    </div>
+                 </div>
+                    <button class="seeMore">Increase SPI ></button>
+                </div>
+                <div class="detail">
+                    <div class="title">SPI</div>
+                    <div class="des spiDes">
+                        <!-- lorem 50 -->
+                          </div>
+                    <section class="container">
+                        <div class="card__container swiper">
+                           <div class="card__content">
+                              <div class="swiper-wrapper">
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/SpiLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">15XP</h3>
+                                       <p class="card__description">
+                                        Morning Gratitude    </p>
+                     
+                                       <a href="#" class="card__button spi">Task complete</a>
+                                    </div>
+                                 </article>
+
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/SpiLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">250XP</h3>
+                                       <p class="card__description">
+                                          Spend 20 minutes in nature, fully present (no phone, no distractions)     </p>
+                     
+                                       <a href="#" class="card__button spi">Task complete</a>
+                                    </div>
+                                 </article>
+
+
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/SpiLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">400XP</h3>
+                                       <p class="card__description">
+                                          Write down 3 things you’re grateful for today    </p>
+                     
+                                       <a href="#" class="card__button spi">Task complete</a>
+                                    </div>
+                                 </article>
+
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/SpiLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">600XP</h3>
+                                       <p class="card__description">
+                                          Spend 30 minutes journaling your thoughts and emotions    </p>
+                     
+                                       <a href="#" class="card__button spi">Task complete</a>
+                                    </div>
+                                 </article>
+
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/SpiLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">15XP</h3>
+                                       <p class="card__description">
+                                           </p>
+                     
+                                       <a href="#" class="card__button spi">Task complete</a>
+                                    </div>
+                                 </article>
+
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/SpiLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">50XP</h3>
+                                       <p class="card__description">
+                                        Prayer & Devotion
+                                     </p>
+                     
+                                       <a href="#" class="card__button spi">Task complete</a>
+                                    </div>
+                                 </article>
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/SpiLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">100XP</h3>
+                                       <p class="card__description">
+                                        Read the Bible</p>
+                     
+                                       <a href="#" class="card__button spi">Task complete</a>
+                                    </div>
+                                 </article>
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/SpiLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">50XP</h3>
+                                       <p class="card__description">
+                                        Write about what inspires you, your emotions, and your purpose.
+                                       </p>
+                     
+                                       <a href="#" class="card__button spi">Task Complete</a>
+                                    </div>
+                                 </article>
+                     
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/SpiLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">30XP</h3>
+                                       <p class="card__description">
+                                        Meditation
+                                       </p>
+                     
+                                       <a href="#" class="card__button spi">Task complete</a>
+                                    </div>
+                                 </article>
+                     
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/SpiLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">20XP</h3>
+                                       <p class="card__description">
+                                        Do something selfless daily
+                                      </p>
+                     
+                                       <a href="#" class="card__button spi">Task complete</a>
+                                    </div>
+                                 </article>
+               
+                                 <article class="card__article swiper-slide">
+                                    <div class="card__image">
+                                       <img src="images/SpiLogo.png" alt="image" class="card__img">
+                                       <div class="card__shadow"></div>
+                                    </div>
+                     
+                                    <div class="card__data">
+                                       <h3 class="card__name">100XP</h3>
+                                       <p class="card__description">
+                                        Fasting
+                                       </p>
+                     
+                                       <a href="#" class="card__button spi">Task Complete</a>
+                                    </div>
+                                 </article>
+                              </div>
+                           </div>
+               
+                           <!-- Navigation buttons -->
+                           <div class="swiper-button-next">
+                              <i class="ri-arrow-right-s-line"></i>
+                           </div>
+                           
+                           <div class="swiper-button-prev">
+                              <i class="ri-arrow-left-s-line"></i>
+                           </div>
+               
+                           <!-- Pagination -->
+                           <div class="swiper-pagination"></div>
+                        </div>
+                     </section>
+                   
+                </div>
+            </div>
+
+
+            <div class="item">
+                <img src="images/seven.png">
+                <div class="introduce">
+                    <div class="title">STRENGTH</div>
+                    <div class="topic">STR: <b class="StrPoints">0</b></div>
+                    <div class="des">
+                        <div class="skill">   
+                            <span class="bar"><span class="html STR"></span></span>      
+                    </div>
+                  </div>
+                    <button class="seeMore">Increase STR ></button>
+                </div>
+                <div class="detail">
+                    <div class="title">Strength</div>
+                    <div class="des strDes">
+                        <!-- lorem 50 -->
+                              </div>
+                              <section class="container">
+                                <div class="card__container swiper">
+                                   <div class="card__content">
+                                      <div class="swiper-wrapper">
+
+                                         <article class="card__article swiper-slide">
+                                            <div class="card__image">
+                                               <img src="images/StrLogo.webp" alt="image" class="card__img">
+                                               <div class="card__shadow"></div>
+                                            </div>
+                             
+                                            <div class="card__data">
+                                               <h3 class="card__name">100XP</h3>
+                                               <p class="card__description">
+                                               Complete daily body weight workouts 
+                                            </p>
+                             
+                                               <a href="#" class="card__button str">Task complete</a>
+                                            </div>
+                                         </article>
+
+                                         <article class="card__article swiper-slide">
+                                            <div class="card__image">
+                                               <img src="images/StrLogo.webp" alt="image" class="card__img">
+                                               <div class="card__shadow"></div>
+                                            </div>
+                             
+                                            <div class="card__data">
+                                               <h3 class="card__name">100XP</h3>
+                                               <p class="card__description">
+                                               Lift weights 
+                                             </p>
+                             
+                                               <a href="#" class="card__button str">Task complete</a>
+                                            </div>
+                                         </article>
+                                         <article class="card__article swiper-slide">
+                                            <div class="card__image">
+                                               <img src="images/StrLogo.webp" alt="image" class="card__img">
+                                               <div class="card__shadow"></div>
+                                            </div>
+                             
+                                            <div class="card__data">
+                                               <h3 class="card__name">50XP</h3>
+                                               <p class="card__description">
+                                                increase workout difficulty each week
+                                               </p>
+                             
+                                               <a href="#" class="card__button str">Task complete</a>
+                                            </div>
+                                         </article>
+                                         <article class="card__article swiper-slide">
+                                            <div class="card__image">
+                                               <img src="images/StrLogo.webp" alt="image" class="card__img">
+                                               <div class="card__shadow"></div>
+                                            </div>
+                             
+                                            <div class="card__data">
+                                               <h3 class="card__name">500XP</h3>
+                                               <p class="card__description">
+                                                30-Day Workout Streak 
+                                               </p>
+                             
+                                               <a href="#" class="card__button str">Automaic reward</a>
+                                            </div>
+                                         </article>
+                             
+                                         <article class="card__article swiper-slide">
+                                          <div class="card__image">
+                                              <img src="images/StrLogo.webp" alt="Strength Exercise Logo" class="card__img">
+                                              <div class="card__shadow"></div>
+                                          </div>
+                                          
+                                          <div class="card__data">
+                                             <div class="card__progress-bar">
+                                                <div class="progress-bar" style="width: 50%;"></div> <!-- Example progress -->
+                                            </div>
+                                              <h3 class="card__name">500XP</h3>
+                                              <p class="card__description">
+                                                  <i class="check-icon"></i> Learn to do a muscle-up, planche, one-arm push-up, handstand push-up, or human flag
+                                              </p>
+                                              
+                                              
+                                              
+                                              <a href="#" class="card__button str">Task complete</a>
+                                          </div>
+                                      </article>
+                             
+                                         <article class="card__article swiper-slide">
+                                            <div class="card__image">
+                                               <img src="images/StrLogo.webp" alt="image" class="card__img">
+                                               <div class="card__shadow"></div>
+                                            </div>
+                             
+                                            <div class="card__data">
+                                               <h3 class="card__name">20XP</h3>
+                                               <p class="card__description">
+                                                Training in the Morning
+                                               </p>
+                             
+                                               <a href="#" class="card__button str">Task complete</a>
+                                            </div>
+                                         </article>
+                       
+                                         <article class="card__article swiper-slide">
+                                            <div class="card__image">
+                                               <img src="images/StrLogo.webp" alt="image" class="card__img">
+                                               <div class="card__shadow"></div>
+                                            </div>
+                             
+                                            <div class="card__data">
+                                               <h3 class="card__name">100XP</h3>
+                                               <p class="card__description">
+                                                Delaying Gratification
+                                               </p>
+                             
+                                               <a href="#" class="card__button str">Task Complete</a>
+                                            </div>
+                                         </article>
+                                      </div>
+                                   </div>
+                       
+                                   <!-- Navigation buttons -->
+                                   <div class="swiper-button-next">
+                                      <i class="ri-arrow-right-s-line"></i>
+                                   </div>
+                                   
+                                   <div class="swiper-button-prev">
+                                      <i class="ri-arrow-left-s-line"></i>
+                                   </div>
+                       
+                                   <!-- Pagination -->
+                                   <div class="swiper-pagination"></div>
+                                </div>
+                             </section>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+            <button id="back">See All  &#8599</button>
+        </div>
+    </div>
+
+    <button id="resetButton">Reset Progress</button>
+
+    
+  
+    <audio id="backgroundMusic" autoplay>
+      <source src="bgMusic.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+  </audio>
+  
+   
+    <script src="increase.js"></script>
+     
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+   
+      <script src="assets/js/main.js"></script>
+</body>
+</html>
