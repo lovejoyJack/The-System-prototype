@@ -3,7 +3,7 @@ The System
 
 Description
 
-The System is a gamified life-tracking system that helps users achieve their personal goals through a system of levels and ranks. Users earn XP by completing tasks, with each level requiring specified XP to progress. The ranks range from E to Upper S, with Level 100 marking the highest achievement at Rank S.
+The System is a gamified life-tracking system inspired by the popular anime Solo Leveling.  it helps users achieve their personal goals through a system of levels and ranks. Users earn XP by completing tasks, with each level requiring specified XP to progress. The ranks range from E to Upper S, with Level 100 marking the highest achievement at Rank S.
 
 Technologies Used
 
