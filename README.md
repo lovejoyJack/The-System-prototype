@@ -21,6 +21,7 @@ Task tracking
 XP accumulation and level progression
 
 Rank system with visual representation
+![image](https://github.com/user-attachments/assets/c965f3f0-41ad-4394-8c5a-9cad806bc494)
 
 ![image](https://github.com/user-attachments/assets/d07abb4e-2764-4745-9c27-bb9d1a19d57b)
 ![image](https://github.com/user-attachments/assets/4617e72a-0371-4fdf-ada2-3f9d0eff10dc)
